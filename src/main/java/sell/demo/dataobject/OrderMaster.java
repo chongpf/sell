@@ -13,6 +13,7 @@ import sell.demo.enums.PayStatusEnum;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.math.BigDecimal;
+import java.util.Date;
 
 @Entity
 @DynamicUpdate
@@ -29,6 +30,8 @@ public class OrderMaster {
     private BigDecimal orderAmount;
     private Integer orderStatus = OrderStatusEnum.NEW.getCode();
     private Integer payStatus = PayStatusEnum.WAIT.getCode();
+    private Date createTime;
+    private Date updateTime;
 
     public OrderMaster() {
     }

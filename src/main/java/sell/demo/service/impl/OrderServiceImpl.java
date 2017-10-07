@@ -75,10 +75,10 @@ public class OrderServiceImpl implements OrderService {
         }
 
         // 3.write orderMaster
+        orderDTO.setOrderAmount(orderAmout);
+        orderDTO.setOrderId(orderId);
         OrderMaster orderMaster = new OrderMaster();
         BeanUtils.copyProperties(orderDTO, orderMaster);
-        orderMaster.setOrderAmount(orderAmout);
-        orderMaster.setOrderId(orderId);
         orderMasterRepository.save(orderMaster);
 
         //4.扣库存
@@ -86,7 +86,7 @@ public class OrderServiceImpl implements OrderService {
                 orderDTO.getOrderDetailList().stream().map(
                         e -> new CartDTO(e.getProductId(), e.getProductQuantity())).collect(Collectors.toList());
         productService.decreaseStock(cartDTOList);
-        return null;
+        return orderDTO;
     }
 
     @Override
