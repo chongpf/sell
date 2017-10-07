@@ -9,7 +9,3 @@ spring:
     show-sql: true
 server:
   context-path: /sell
-#logging:
-#  pattern:
-#    console: "%d - $msg%n"
-#  file: D:\study\workspace\log\sell.log
