@@ -1,0 +1,23 @@
+#compiled class file
+*.class
+
+#log file
+*.log
+
+#bluej files
+*.ctxt
+
+#mobile tools for java j2me
+.mtj.tmp/
+
+#package files 
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+#virtual machine crash logs,
+hs_err_pid*
+
