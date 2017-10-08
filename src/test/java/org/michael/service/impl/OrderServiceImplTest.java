@@ -81,7 +81,6 @@ public class OrderServiceImplTest {
         String s1 = "test1";
         String s2 = "test1";
         String s3 = "test1";
-        String s4 = "test1";
     }
 
     @Test
