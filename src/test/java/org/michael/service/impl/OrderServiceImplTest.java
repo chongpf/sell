@@ -87,8 +87,10 @@ public class OrderServiceImplTest {
         Assert.assertEquals(OrderStatusEnum.FINISHED.getCode(), result.getOrderStatus());
 
         String s = "1";
+
         s="2";
         s="3";
+
 
     }
 
