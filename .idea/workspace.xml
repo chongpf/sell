@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39338472-c2d4-48a6-a7b3-55bf183d79f9" name="Default" comment="">
+    <list default="true" id="39338472-c2d4-48a6-a7b3-55bf183d79f9" name="Default" comment="Revert &quot;test2&quot;&#10;&#10;This reverts commit 6d4ba774b8bd9b2048f12aaff40ac23d25484910.&#10;&#10;# Conflicts:&#10;#&#9;src/test/java/org/michael/service/impl/OrderServiceImplTest.java">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/michael/service/impl/OrderServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/michael/service/impl/OrderServiceImplTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="OrderServiceImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/michael/service/impl/OrderServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+            <state relative-caret-position="200">
+              <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -468,7 +469,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62907000" />
+    <option name="totallyTimeSpent" value="63922000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -952,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/org/michael/service/impl/OrderServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        <state relative-caret-position="200">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="33" />
           <folding />
         </state>
       </provider>
