@@ -80,7 +80,6 @@ public class OrderServiceImplTest {
 //        Assert.assertEquals(OrderStatusEnum.CANCLE.getCode(), result.getOrderStatus());
         String s1 = "test1";
         String s2 = "test1";
-        String s3 = "test1";
     }
 
     @Test
