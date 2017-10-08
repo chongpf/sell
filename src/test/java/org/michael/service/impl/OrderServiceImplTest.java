@@ -86,7 +86,7 @@ public class OrderServiceImplTest {
         OrderDTO result = orderService.finish(orderDTO);
         Assert.assertEquals(OrderStatusEnum.FINISHED.getCode(), result.getOrderStatus());
 
-        String s = "1";
+        String s = "2";
 
     }
 
