@@ -79,6 +79,7 @@ public class OrderServiceImplTest {
 //        OrderDTO result = orderService.cancel(orderDTO);
 //        Assert.assertEquals(OrderStatusEnum.CANCLE.getCode(), result.getOrderStatus());
         String s1 = "test1";
+        String s2 = "test1";
     }
 
     @Test
