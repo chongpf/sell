@@ -2,8 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39338472-c2d4-48a6-a7b3-55bf183d79f9" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/michael/service/impl/OrderServiceImplTest.class" afterPath="$PROJECT_DIR$/target/test-classes/org/michael/service/impl/OrderServiceImplTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/sell/demo/SellApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/sell/demo/dataobject/ProductCategory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/sell/demo/repository/ProductCategoryRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/sell/demo/SellApplicationTests.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sell.iml" afterPath="$PROJECT_DIR$/sell.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.yml" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/SellApplication.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/SellApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/controller/BuyerOrderController.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/controller/BuyerOrderController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/controller/BuyerProductController.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/controller/BuyerProductController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/converter/OrderForm2OrderDTO.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/converter/OrderForm2OrderDTO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/converter/OrderMaster2OrderDTOConverter.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/converter/OrderMaster2OrderDTOConverter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/dataobject/OrderDetail.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/dataobject/OrderDetail.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/dataobject/OrderMaster.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/dataobject/OrderMaster.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/dataobject/ProductCategory.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/dataobject/ProductCategory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/dataobject/ProductInfo.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/dataobject/ProductInfo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/dto/CartDTO.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/dto/CartDTO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/dto/OrderDTO.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/dto/OrderDTO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/enums/OrderStatusEnum.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/enums/OrderStatusEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/enums/PayStatusEnum.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/enums/PayStatusEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/enums/ProductStatusEnum.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/enums/ProductStatusEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/enums/ResultEnum.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/enums/ResultEnum.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/exception/SellException.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/exception/SellException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/form/OrderForm.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/form/OrderForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/repository/OrderDetailRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/repository/OrderDetailRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/repository/OrderMasterRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/repository/OrderMasterRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/repository/ProductCategoryRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/repository/ProductCategoryRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/repository/ProductInfoRepository.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/repository/ProductInfoRepository.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/service/BuyerService.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/service/BuyerService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/service/CategoryService.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/service/CategoryService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/service/OrderService.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/service/OrderService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/service/ProductService.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/service/ProductService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/service/impl/BuyerServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/service/impl/BuyerServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/service/impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/service/impl/CategoryServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/service/impl/OrderServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/service/impl/OrderServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/service/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/service/impl/ProductServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/util/KeyUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/util/KeyUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/util/ResultVoUtil.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/util/ResultVoUtil.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/util/serializer/Date2LongSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/util/serializer/Date2LongSerializer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/vo/ProductInfoVO.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/vo/ProductInfoVO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/vo/ProductVO.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/vo/ProductVO.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/sell/demo/vo/ResultVo.java" afterPath="$PROJECT_DIR$/src/main/java/org/michael/vo/ResultVo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/sell/demo/SellApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/org/michael/SellApplicationTests.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/sell/demo/controller/BuyerOrderControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/michael/controller/BuyerOrderControllerTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/sell/demo/repository/OrderDetailRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/michael/repository/OrderDetailRepositoryTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/sell/demo/repository/OrderMasterRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/michael/repository/OrderMasterRepositoryTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/sell/demo/repository/ProductCategoryRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/michael/repository/ProductCategoryRepositoryTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/sell/demo/repository/ProductInfoRepositoryTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/michael/repository/ProductInfoRepositoryTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/sell/demo/service/impl/CategoryServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/michael/service/impl/CategoryServiceImplTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/sell/demo/service/impl/OrderServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/michael/service/impl/OrderServiceImplTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/sell/demo/service/impl/ProductServiceImplTest.java" afterPath="$PROJECT_DIR$/src/test/java/org/michael/service/impl/ProductServiceImplTest.java" />
+>>>>>>> parent of f6864b2... test1
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,16 +76,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="OrderServiceImplTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/org/michael/service/impl/OrderServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
               <caret line="80" column="28" lean-forward="true" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+=======
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="65" column="20" lean-forward="false" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+>>>>>>> parent of f6864b2... test1
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="ProductInfoVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/michael/vo/ProductInfoVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/michael/dto/CartDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDTO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/michael/dto/OrderDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductVO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/michael/vo/ProductVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> parent of f6864b2... test1
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -106,7 +220,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/michael/controller/BuyerOrderController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/org/michael/service/impl/OrderServiceImplTest.java" />
       </list>
     </option>
   </component>
@@ -173,7 +286,40 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="sell" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="test" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sell" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sell" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="michael" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sell" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="michael" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sell" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+>>>>>>> parent of f6864b2... test1
             </path>
           </expand>
           <select />
@@ -445,7 +591,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="63820000" />
+=======
+    <option name="totallyTimeSpent" value="60727000" />
+>>>>>>> parent of f6864b2... test1
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,13 +618,17 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3356009" sideWeight="0.22715628" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24517168" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.454343" sideWeight="0.49570817" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31959912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49570817" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31959912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3356009" sideWeight="0.7728437" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21781115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15879828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> parent of f6864b2... test1
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -484,48 +638,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39198217" sideWeight="0.63358366" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3356009" sideWeight="0.22715628" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24517168" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39198217" sideWeight="0.63358366" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879817" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.49570817" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31959912" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3356009" sideWeight="0.7728437" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15879828" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -575,6 +696,13 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/michael/util/serializer/Date2LongSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.10/jackson-databind-2.8.10.jar!/com/fasterxml/jackson/databind/annotation/JsonSerialize.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -820,6 +948,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/michael/controller/BuyerOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/michael/SellApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -874,6 +1009,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -889,6 +1027,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+<<<<<<< HEAD
+=======
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> parent of f6864b2... test1
         </state>
       </provider>
     </entry>
@@ -913,6 +1057,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/org/michael/controller/BuyerOrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -928,6 +1073,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> parent of f6864b2... test1
   </component>
   <component name="masterDetails">
     <states>

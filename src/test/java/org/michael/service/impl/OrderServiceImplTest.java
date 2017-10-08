@@ -78,7 +78,6 @@ public class OrderServiceImplTest {
 //        OrderDTO orderDTO = orderService.findOne("1507281477356431291");
 //        OrderDTO result = orderService.cancel(orderDTO);
 //        Assert.assertEquals(OrderStatusEnum.CANCLE.getCode(), result.getOrderStatus());
-        String s1 = "test1";
     }
 
     @Test
